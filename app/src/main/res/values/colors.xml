@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorPrimary">#009688</color>
+<color name="colorPrimaryDark">#00675b</color>
+<color name="colorAccent">#4ba3c7</color>
+<color name="tabsScrollColor">#004D40</color>
+<color name="prime">#59d6bd</color>
+<color name="White">#ffffff</color>
+
+    <color name="Black">#000000</color>
+    <color name="backg_for_admon">#98c3d8</color>
+    <color name="hint_text_color">#ff000d</color>
+    <color name="back1">#c1f9dd2b</color>
+    <color name="back2">#abf92b2e</color>
+    <color name="back3">#c12b43f9</color>
+    <color name="back4">#c1a32bf9</color>
+    <color name="holo_orange_dark2">#ff8800 </color>
+
+</resources>

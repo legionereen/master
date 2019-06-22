@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="220dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.admin.aplicationforcursaci.ActivityAddmoney"
+    tools:showIn="@layout/activity_addmoney">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="345dp"
+        android:layout_height="444dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="52dp"
+        android:addStatesFromChildren="false"
+        android:background="@drawable/rectangle_backgraind"
+        android:contextClickable="false"
+        android:gravity="center"
+        app:layout_constrainedHeight="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:id="@+id/lnr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/your_number"
+                android:textColor="@color/White"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView9"
+                android:background="@drawable/edit_text_style"
+                android:defaultFocusHighlightEnabled="true"
+                android:ems="10"
+                android:hint="09********"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:selectAllOnFocus="false"
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/editText2"
+                android:layout_below="@+id/editText2"
+                android:text="@string/paying_summ"
+                android:textColor="@color/White"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_text_style"
+                android:defaultFocusHighlightEnabled="true"
+                android:ems="10"
+                android:hint="От 10 лей"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/editText3"
+                android:layout_below="@+id/editText3"
+                android:text="Номер Карты*"
+                android:textColor="@color/White"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView11"
+                android:background="@drawable/edit_text_style"
+                android:defaultFocusHighlightEnabled="true"
+                android:hint="3XXXXXXXX"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textColor="@color/Black" />
+
+            <Button
+                android:id="@+id/btnAlpha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/textSelectHandleRight"
+                android:onClick="onAddMoneybuttonClick"
+                android:text="Пополнить"
+                android:textColor="@color/White" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">FreeLine</string>
+    <string name="title_activity_hamburger_list">FreeLineShop</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="android_studio">www.FreLine.md</string>
+    <string name="todo">TODO</string>
+    <string name="Привет">Button</string>
+    <string name="item_main">Корзина</string>
+    <string name="item_shop">Магазин</string>
+    <string name="item_pl">Пополнение счета</string>
+    <string name="item_contacts">Контакты</string>
+    <string name="item_communicate">Communicate</string>
+    <string name="item_find_friends">Пригласить друзей</string>
+    <string name="item_help">Тех поддержка</string>
+    <string name="title_activity_home">Корзина</string>
+    <string name="title_activity_shop">Магазин</string>
+    <string name="title_activity_addbani">Пополни счёт</string>
+    <string name="title_activity_addmoney">Пополни счёт</string>
+    <string name="title_activity_contacts">Наши контакты</string>
+    <string name="interesting">Здесь ты найдёшь всё самое интересное</string>
+    <string name="phones">Смартфоны</string>
+    <string name="popular">Аксессуары</string>
+    <string name="computers">Компьютеры</string>
+    <string name="huawei_p_smart">Huawei\n P Smart</string>
+    <string name="huawei_y6">Huawei Y6\n</string>
+    <string name="samsung_a6">Samsung\n Galaxy A6</string>
+    <string name="iphone_x">iPhone X\n</string>
+    <string name="moto">Motorola\n Moto E4</string>
+    <string name="nokia">Nokia 6\n</string>
+    <string name="acer_a315">ACER\n Aspire A315</string>
+    <string name="lenovo_ideaPad">Lenovo\n IdeaPad 320</string>
+    <string name="lenovo_id110">Lenovo\n IdeaPad 110</string>
+    <string name="asus_x541">Asus\n X541NA</string>
+    <string name="acer_es1">Acer\n ES1-533</string>
+    <string name="lenovo_110">Acer\n IdeaPad 110-15</string>
+    <string name="beats_cellular_swing">Наушники\nCellularline</string>
+    <string name="xiaomi_mi">Наушники\nXiaomi Mi</string>
+    <string name="cehol_hw">Чехол\n Huawei P20</string>
+    <string name="microsd">MicroSD\n 64GB USB</string>
+    <string name="jbl_p3">Динамик\n JBL Pulse 3</string>
+    <string name="power_bank">Power Bank\n12000 mAh</string>
+    <string name="cehol_hw_p20">Чехол\n Huawei P20</string>
+    <string name="beats_trust">Наушники\n Trust Mobi</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="freeline_inbox_ru">freeline@inbox.ru</string>
+    <string name="number">Number:</string>
+    <string name="_37369254123">+37369254123</string>
+    <string name="adres">Adres:</string>
+    <string name="arborilor_21_4">Arborilor 21/4, Chisinau</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="your_number">Ваш номер*</string>
+    <string name="paying_summ">Сумма пополнения*</string>
+    <string name="title_activity_help_">Help_Activity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_main2">Тех поддержка</string>
+</resources>
