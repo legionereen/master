@@ -32,11 +32,11 @@ public class ActivityAddmoney extends AppCompatActivity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item){
+    public boolean onOptionsItemSelected(MenuItem item) {
 
         int id = item.getItemId();
 
-        if(id == android.R.id.home){
+        if (id == android.R.id.home) {
             finish();
         }
         return super.onOptionsItemSelected(item);
@@ -53,32 +53,29 @@ public class ActivityAddmoney extends AppCompatActivity {
         @SuppressLint("ResourceType")
 
         EditText edText1 = findViewById(R.id.editText2);  //номер тлф
-        EditText edText2=findViewById(R.id.editText3);   //сумма
-        EditText edText3=findViewById(R.id.editText4); //номер карты
+        EditText edText2 = findViewById(R.id.editText3);   //сумма
+        EditText edText3 = findViewById(R.id.editText4); //номер карты
 
 
-        if(edText1.length()!=9){
-            flag=false;
+        if (edText1.length() != 9) {
+            flag = false;
             edText1.setBackground(ContextCompat.getDrawable(this, R.drawable.edit_text_style_error));
-        }
-        else edText1.setBackground(ContextCompat.getDrawable(this, R.drawable.edit_text_style));
+        } else edText1.setBackground(ContextCompat.getDrawable(this, R.drawable.edit_text_style));
 
-        if(edText2.length()<2){
-            flag=false;
+        if (edText2.length() < 2) {
+            flag = false;
             edText2.setBackground(ContextCompat.getDrawable(this, R.drawable.edit_text_style_error));
-        }
-        else edText2.setBackground(ContextCompat.getDrawable(this, R.drawable.edit_text_style));
+        } else edText2.setBackground(ContextCompat.getDrawable(this, R.drawable.edit_text_style));
 
-        if(edText3.length()<6){
-            flag=false;
+        if (edText3.length() < 6) {
+            flag = false;
             edText3.setBackground(ContextCompat.getDrawable(this, R.drawable.edit_text_style_error));
-        }
-        else edText3.setBackground(ContextCompat.getDrawable(this, R.drawable.edit_text_style));
+        } else edText3.setBackground(ContextCompat.getDrawable(this, R.drawable.edit_text_style));
 
-        if(flag){
-            val= Integer.parseInt(edText2.getText().toString());
-            Toast toast = Toast.makeText(getApplicationContext(),"Вы успешно пополнили свой счет на " + val + " лей",Toast.LENGTH_SHORT);
-            toast.setGravity(Gravity.TOP,0,385);
+        if (flag) {
+            val = Integer.parseInt(edText2.getText().toString());
+            Toast toast = Toast.makeText(getApplicationContext(), "Вы успешно пополнили свой счет на " + val + " лей", Toast.LENGTH_SHORT);
+            toast.setGravity(Gravity.TOP, 0, 385);
             toast.show();
             edText1.setText("");
             edText2.setText("");
@@ -98,10 +95,7 @@ public class ActivityAddmoney extends AppCompatActivity {
             }, 2000);
 
 
-
         }
-
-
 
 
     }
