@@ -21,16 +21,14 @@
         android:padding="0dp">
 
 
-
-
         <LinearLayout
             android:id="@+id/lin_fr_img2"
             android:layout_width="match_parent"
             android:layout_height="140dp"
             android:layout_marginTop="10dp"
+            android:background="@color/White"
             android:baselineAligned="false"
-            android:orientation="horizontal"
-            android:background="@color/White">
+            android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -62,43 +60,42 @@
             android:textSize="20sp" />
 
 
-    <LinearLayout
-        android:layout_marginTop="10dp"
-        android:id="@+id/lin_fr_img"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:baselineAligned="false">
-        <TextView
-            android:layout_weight="1"
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:id="@+id/lin_fr_img"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableTop="@mipmap/computer"
-            android:text="@string/computers"
-            android:textAlignment="center" />
+            android:layout_marginTop="10dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="80dp"
-            android:layout_weight="1"
-            android:drawableTop="@mipmap/popular"
-            android:text="@string/popular"
-            android:textAlignment="center" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@mipmap/computer"
+                android:text="@string/computers"
+                android:textAlignment="center" />
 
-        <TextView
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawableTop="@mipmap/phone"
-            android:text="@string/phones"
-            android:textAlignment="center" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:drawableTop="@mipmap/popular"
+                android:text="@string/popular"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@mipmap/phone"
+                android:text="@string/phones"
+                android:textAlignment="center" />
 
 
-
-
-    </LinearLayout>
+        </LinearLayout>
 
         <FrameLayout
             android:layout_width="match_parent"
@@ -158,6 +155,7 @@
 
 
         </FrameLayout>
+
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -172,8 +170,7 @@
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/back3"
-                android:onClick="onRelativeLayoutClick" />
+                android:background="@color/back3" />
 
             <TextView
                 android:id="@+id/textView9"
@@ -202,8 +199,7 @@
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/back4"
-                android:onClick="onRelativeLayoutClick" />
+                android:background="@color/back4" />
 
             <TextView
                 android:id="@+id/textView10"
@@ -215,52 +211,47 @@
                 android:textSize="30sp"
                 android:visibility="visible" />
 
-
         </FrameLayout>
 
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:background="@drawable/rectangle_rounded_some"
-            >
+            android:background="@drawable/rectangle_rounded_some">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-
-            <ImageView
-                android:id="@+id/imageButton"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="25dp"
-                android:layout_weight="1"
-                android:onClick="onSocialButtonClick"
-                app:srcCompat="@drawable/logo_facebook" />
-
-            <ImageView
-                android:onClick="onSocialButtonClick"
-                android:layout_marginTop="25dp"
-                android:id="@+id/imageButton2"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/logo_youtube" />
-
-            <ImageView
-                android:onClick="onSocialButtonClick"
-                android:layout_marginTop="25dp"
-                android:id="@+id/imageButton3"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/logo_telega" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
 
+                <ImageView
+                    android:id="@+id/imageButton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:onClick="onSocialButtonClick"
+                    app:srcCompat="@drawable/logo_facebook" />
 
+                <ImageView
+                    android:id="@+id/imageButton2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:onClick="onSocialButtonClick"
+                    app:srcCompat="@drawable/logo_youtube" />
 
-        </LinearLayout>
+                <ImageView
+                    android:id="@+id/imageButton3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:onClick="onSocialButtonClick"
+                    app:srcCompat="@drawable/logo_telega" />
+
+            </LinearLayout>
 
             <TextView
                 android:id="@+id/textView15"
@@ -271,10 +262,9 @@
                 android:text="Contact us"
                 android:textColor="@color/White"
                 android:textSize="12sp" />
-    </FrameLayout>
+        </FrameLayout>
 
     </LinearLayout>
-
 
 
 </ScrollView>
